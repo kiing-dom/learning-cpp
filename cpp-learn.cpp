@@ -1,3 +1,65 @@
+//Lesson 3 - Loops
+#include <iostream>
+
+using namespace std; //so the program can see cout and endl
+
+int main()
+{
+    //loop to go while x < 10 and increments by 1 every loop
+    for(int i = 0; i < 0; i++){
+        //keep in mind that the loop checks
+        //the conditional statement before it loops again
+        //consequently, when x equals 10 the loop breaks.
+        //x is updated before the condition is checked.
+    cout<< i <<endl;
+    }
+    cin.get();
+}
+
+//while loop example
+#include <iostream> 
+
+using namespace std; //so we can see cout and endl
+
+int main()
+{
+    int x = 0; //don't forget to declare variables
+
+    while( x < 10){
+        cout<< x <<endl;
+        x++;
+    }
+    cin.get();
+}
+
+//do..while loop
+//useful for things you want to loop atleast once
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+
+    x = 0;
+    do{
+        /*Print "Hello, World!" at least once
+        Even though the condition is false
+        */
+       cout<<"Hello, world!\n";
+    }
+    while(x != 0);
+    cin.get();
+}
+
+
+
+
+
+
+
 //Lesson 2 - Using If - Else Statements
 
 #include <iostream>
